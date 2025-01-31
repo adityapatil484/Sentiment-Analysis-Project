@@ -29,6 +29,11 @@ Ensure you have the following installed:
    ```sh
    pip install -r requirements.txt
    ```
+4. Configure environment variables:
+    
+   Rename env-example.txt to .env.
+   Update the API key and channel IDs in .env
+   
 4. Run the sentiment analysis script:
    ```sh
    python main.py
