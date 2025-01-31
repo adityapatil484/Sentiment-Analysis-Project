@@ -1,0 +1,4 @@
+API_KEY="api_key"
+channel_id = "channel_id"
+channel_id2 = "channel_id"
+channel_id3 = "channel_id"
