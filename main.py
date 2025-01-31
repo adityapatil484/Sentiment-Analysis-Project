@@ -1,9 +1,13 @@
 from youtube_statistics import YTstats
+from dotenv import load_dotenv
+import os
 
-API_KEY = "AIzaSyDcSKXYoV-bs7xr4F7ZtwGJZRgFu1p9Mh8"
-channel_id = "UCUFgkRb0ZHc4Rpq15VRCICA"
-channel_id2 = "UCZq427EjGqUbV6pZIjEKkgg"
-channel_id3 = "UCuLUOxd7ezJ8c6NSLBNRRfg"
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+
+channel_id = os.getenv("channel_id")
+channel_id2 = os.getenv("channel_id2")
+channel_id3 = os.getenv("channel_id3")
 
 yt = YTstats(API_KEY, channel_id)
 yt.get_channel_statistics()
