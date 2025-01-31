@@ -31,8 +31,8 @@ Ensure you have the following installed:
    ```
 4. Configure environment variables:
     
-   Rename env-example.txt to .env.
-   Update the API key and channel IDs in .env
+   - Rename env-example.txt to .env.
+   - Update the API key and channel IDs in .env
    
 4. Run the sentiment analysis script:
    ```sh
